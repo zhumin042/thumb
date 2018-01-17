@@ -4,7 +4,8 @@
   "description": "my first week homework",
   "main": "index.js",
   "scripts": {
-    "build": "babel src -d lib",
+    //"build": "babel src -d lib",
+    "build": "babel src/thumb.es -o src/thumb.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "zhumin",
