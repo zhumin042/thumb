@@ -4,7 +4,6 @@
   "description": "my first week homework",
   "main": "index.js",
   "scripts": {
-    //"build": "babel src -d lib",
     "build": "babel src/thumb.es -o src/thumb.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,6 +11,10 @@
   "license": "ISC",
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-preset-es2015": "^6.24.1"
+    "babel-preset-es2015": "^6.24.1",
+    "jasmine-core": "^2.9.0",
+    "karma": "^2.0.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.1"
   }
 }
